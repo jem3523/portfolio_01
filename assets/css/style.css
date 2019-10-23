@@ -1,0 +1,208 @@
+html body {
+    background-image: url("../images/criss-cross.png");
+    height: 100%;
+    margin:0px;
+    background-color: oldlace;  
+}
+ 
+header {
+    background-color: #ffffff;
+    border-top: 2px solid #cccccc;
+    border-bottom: 2px solid #cccccc;
+    border-left: none;
+    border-right: none;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.headerContainer{
+    margin-left: 100px;
+    width: 960px;
+}
+    
+.headerLeft{
+    background-color: #4aaaa5;
+    height: 60px;
+    float: 100px;
+    width: 200px;
+}
+    
+.headerRight{
+    height: 60px;
+    float: right;
+    width: 200px;
+    
+}
+
+.headerLink {
+    float:right;
+    padding-right: 0px;
+    padding-top: 20px;
+}
+    
+logoName {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+}
+
+
+
+main {
+    width: 960px;
+    height: 400px;
+    background-color: #ffffff;
+    border-color:#dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 0px;
+    clear: both;
+    overflow: inherit;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+h2 {
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: strong;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+p {
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #666666;
+    color: white;
+    margin: 5px;
+    border-top: 8px solid #4aaaa5;
+    height: 40px;
+    margin-left: 0px;
+    margin-right: 0px
+}
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+a:visited {
+    color: #777777;
+    text-decoration: none;
+}
+
+.copyrightText {
+    color: white;
+    font-size: 10px;
+    text-align-last: center;
+    padding-top: 10px;
+}
+
+.textBox {
+    border-top: 2px solid grey;
+    padding-top: 20 px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100px;
+    overflow: visible;
+}
+
+.beforeStickyFooter {
+    margin-bottom: -50px;
+    min-height: 100%;
+    overflow: visible;
+}
+
+.push {
+    height: 50px;
+}
+
+.buttons {
+    background-color: #4aaaa5;
+    color: white;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
+    border-style: none;
+    height: 30px;
+}
+
+.formSmallEntry {
+    width: 920px;
+}
+
+.formLargeEntry {
+    width: 920px;
+    height: 100px;
+}
+
+.leftImageHolder {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.portImage {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding-top: 0px;
+    padding-bottom: 00px;
+    padding-left: 0px;
+    padding-right: 0px;
+    z-index:1;
+}
+
+.imageHolderText {
+    width: 160px;
+    height: 30px;
+    top: 70px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding-top: 10px;
+    padding-bottom: 00px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    z-index: 2;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+} 
+
+.row {
+    clear:float;
+}
+
+#JMpic {
+    float: left;
+    position: relative;
+    padding-top: 20px;
+    padding-right: 20px;
+}
